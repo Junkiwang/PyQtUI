@@ -10,6 +10,12 @@
     <height>600</height>
    </rect>
   </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
@@ -17,10 +23,10 @@
    <widget class="QWidget" name="">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>220</y>
+      <x>123</x>
+      <y>192</y>
       <width>504</width>
-      <height>94</height>
+      <height>102</height>
      </rect>
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout">
@@ -50,7 +56,10 @@
        <item>
         <widget class="QLabel" name="label_3">
          <property name="text">
-          <string>sharp比</string>
+          <string>&amp;sharp比</string>
+         </property>
+         <property name="buddy">
+          <cstring>doubleSpinBox_sharp_min</cstring>
          </property>
         </widget>
        </item>
@@ -71,6 +80,13 @@
      </item>
      <item>
       <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>最小值</string>
+         </property>
+        </widget>
+       </item>
        <item row="0" column="1">
         <widget class="QLabel" name="label_5">
          <property name="text">
@@ -84,6 +100,9 @@
        <item row="1" column="1">
         <widget class="QDoubleSpinBox" name="doubleSpinBox_returns_max"/>
        </item>
+       <item row="2" column="0">
+        <widget class="QDoubleSpinBox" name="doubleSpinBox_maxdrawdown_min"/>
+       </item>
        <item row="2" column="1">
         <widget class="QDoubleSpinBox" name="doubleSpinBox_maxdrawdown_max"/>
        </item>
@@ -92,16 +111,6 @@
        </item>
        <item row="3" column="1">
         <widget class="QDoubleSpinBox" name="doubleSpinBox_sharp_max"/>
-       </item>
-       <item row="2" column="0">
-        <widget class="QDoubleSpinBox" name="doubleSpinBox_maxdrawdown_min"/>
-       </item>
-       <item row="0" column="0">
-        <widget class="QLabel" name="label_4">
-         <property name="text">
-          <string>最小值</string>
-         </property>
-        </widget>
        </item>
       </layout>
      </item>
@@ -118,7 +127,7 @@
         <enum>Qt::Horizontal</enum>
        </property>
        <property name="sizeType">
-        <enum>QSizePolicy::Fixed</enum>
+        <enum>QSizePolicy::Preferred</enum>
        </property>
        <property name="sizeHint" stdset="0">
         <size>
@@ -130,6 +139,21 @@
      </item>
      <item>
       <widget class="QPushButton" name="pushButton">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>16777215</height>
+        </size>
+       </property>
        <property name="text">
         <string>开始</string>
        </property>
@@ -150,6 +174,15 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
+ <tabstops>
+  <tabstop>doubleSpinBox_returns_min</tabstop>
+  <tabstop>doubleSpinBox_returns_max</tabstop>
+  <tabstop>doubleSpinBox_maxdrawdown_min</tabstop>
+  <tabstop>doubleSpinBox_maxdrawdown_max</tabstop>
+  <tabstop>doubleSpinBox_sharp_min</tabstop>
+  <tabstop>doubleSpinBox_sharp_max</tabstop>
+  <tabstop>pushButton</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>
