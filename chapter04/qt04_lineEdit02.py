@@ -4,7 +4,7 @@
 from PyQt5.QtWidgets import QApplication, QLineEdit, QWidget, QFormLayout
 from PyQt5.QtGui import QIntValidator, QDoubleValidator, QRegExpValidator
 from PyQt5.QtCore import QRegExp
-import sys
+import sys, re
 
 
 class lineEditDemo(QWidget):
@@ -19,21 +19,21 @@ class lineEditDemo(QWidget):
 
         flo.addRow('整型', pIntlineEdit)
         flo.addRow('浮点型', pDoublelineEdit)
-        flo.addRow('字母和数字', pValidatorlineEdit)
+        flo.addRow('字母、数字和下划线', pValidatorlineEdit)
 
         pIntlineEdit.setPlaceholderText('整型')
         pDoublelineEdit.setPlaceholderText('浮点型')
-        pValidatorlineEdit.setPlaceholderText('字母和数字')
+        pValidatorlineEdit.setPlaceholderText('字母、数字和下划线')
 
         pIntValidator = QIntValidator(self)
         pIntValidator.setRange(0, 99)
 
         pDoubleValidator = QDoubleValidator(self)
         pDoubleValidator.setRange(-360, 360)
-        pDoubleValidator.setNotation(QDoubleValidator.StandardNotation) #分标准浮点记数和科学浮点记数
+        pDoubleValidator.setNotation(QDoubleValidator.StandardNotation)  # 分标准浮点记数和科学浮点记数
         pDoubleValidator.setDecimals(2)
 
-        r = QRegExp('^[a-zA-Z0-9]+$')
+        r = QRegExp(r'^[a-zA-Z0-9\_]+$')
         pReValidator = QRegExpValidator(self)
         pReValidator.setRegExp(r)
 

@@ -4,6 +4,7 @@
 from PyQt5.QtWidgets import QApplication, QLineEdit, QWidget, QFormLayout
 import sys
 
+
 class lineEditDemo(QWidget):
     def __init__(self, parent=None):
         super(lineEditDemo, self).__init__(parent)
@@ -18,6 +19,7 @@ class lineEditDemo(QWidget):
         pIPLineEdit.setInputMask('000.000.000.000;_')
         pMACLineEdit.setInputMask('HH:HH:HH:HH:HH:HH;_')
         pDateLineEdit.setInputMask('0000-00-00')
+        pDateLineEdit.setPlaceholderText('2018-08-08')
         pLicenseLineEdit.setInputMask('>AAAAA-AAAAA-AAAAA-AAAAA-AAAAA;#')
 
         flo.addRow('IP掩码', pIPLineEdit)
@@ -26,6 +28,7 @@ class lineEditDemo(QWidget):
         flo.addRow('许可证掩码', pLicenseLineEdit)
 
         self.setLayout(flo)
+
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
