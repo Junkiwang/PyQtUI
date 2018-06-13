@@ -71,6 +71,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setFamily("Aharoni")
         font.setBold(True)
+
         font.setWeight(75)
         self.label_12.setFont(font)
         self.label_12.setObjectName("label_12")
