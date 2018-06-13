@@ -107,7 +107,7 @@ class Ui_MainWindow(object):
         self.statusbar.setObjectName("statusbar")
         MainWindow.setStatusBar(self.statusbar)
 
-        MainWindow.setFixedSize(MainWindow.width(), MainWindow.height());
+        MainWindow.setFixedSize(MainWindow.width(), MainWindow.height())
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
@@ -150,7 +150,7 @@ class Ui_MainWindow(object):
         self.pushButton_2.clicked.connect(self.port_close)
 
         self.pushButton_3.setText(_translate("MainWindow", "检测串口"))
-        self.pushButton_3.clicked.connect(self.port_cheak)
+        self.pushButton_3.clicked.connect(self.port_check)
 
         self.label_11.setText(_translate("MainWindow", "状 态："))
         self.label_12.setText(_translate("MainWindow", "串口状态"))
@@ -221,7 +221,7 @@ class Ui_MainWindow(object):
         self.textBrowser.setText("")
         self.label_12.setText("接收清空")
 
-    def port_cheak(self):
+    def port_check(self):
         Com_List = []
         port_list = list(serial.tools.list_ports.comports())
         self.comboBox_4.clear()
