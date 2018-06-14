@@ -166,7 +166,6 @@ class Ui_MainWindow(object):
         self.pushButton_5.clicked.connect(self.send_data)
 
     def port_open(self):
-
         self.ser.port = self.comboBox_4.currentText()
         self.ser.baudrate = int(self.lineEdit_3.text())
         self.ser.bytesize = int(self.comboBox.currentText())

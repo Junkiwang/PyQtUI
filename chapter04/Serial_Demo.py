@@ -11,10 +11,13 @@ from PyQt5.QtWidgets import *
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 
+
 class serialDemo(QWidget):
+
     def __init__(self, parent=None):
         super(serialDemo, self).__init__(parent)
         self.setWindowTitle('串口通信工具')
+        self.setWindowIcon(QIcon('./images/cartoon5.ico'))
         # self.resize(700, 400)
         self.setFixedSize(700, 400)
 
@@ -23,9 +26,9 @@ class serialDemo(QWidget):
         layout_sz = QGridLayout()
         self.label1 = QLabel('COM口')
         self.comb1 = QComboBox()
-        self.comb1.addItem('')
+        self.comb1.addItem('点击选择COM')
         self.comb1.activated.connect(self._checkport)
-        layout_sz.addWidget(self.label1, 0 ,0)
+        layout_sz.addWidget(self.label1, 0, 0)
         layout_sz.addWidget(self.comb1, 0, 1)
 
         self.label2 = QLabel('波特率')
@@ -42,7 +45,8 @@ class serialDemo(QWidget):
 
         self.label4 = QLabel('校验位')
         self.comb4 = QComboBox()
-        self.comb4.addItems(['None', 'Even', 'Odd', 'Mark', 'Space'])
+
+        self.comb4.addItems(['N', 'E', 'O', 'M', 'S'])
         layout_sz.addWidget(self.label4, 3, 0)
         layout_sz.addWidget(self.comb4, 3, 1)
 
@@ -65,7 +69,7 @@ class serialDemo(QWidget):
         groupbox_dk.setLayout(layout_dk)
 
         self.label6 = QLabel('串口状态：')
-        self.label7 = QLabel('未打开串口')
+        self.label7 = QLabel('未打开串口 ')
         self.label7.setFont(QFont('黑体', 10))
         layout_dk.addWidget(self.label6, 1, 0)
         layout_dk.addWidget(self.label7, 1, 1)
@@ -78,7 +82,7 @@ class serialDemo(QWidget):
         groupbox2 = QGroupBox('接收区')
         layout_js = QHBoxLayout()
         self.text1 = QTextBrowser()
-        self.text1.resize(200, 300)
+        self.text1.resize(200, 400)
         layout_js.addWidget(self.text1)
         groupbox2.setLayout(layout_js)
 
@@ -91,11 +95,7 @@ class serialDemo(QWidget):
 
         layout3 = QFormLayout()
         self.checkbtn1 = QCheckBox('Hex显示')
-        self.checkbtn1.setChecked(False)
-        self.checkbtn1.stateChanged.connect(self._Hdisplay)
         self.checkbtn2 = QCheckBox('Hex发送')
-        self.checkbtn2.setChecked(False)
-        self.checkbtn2.stateChanged.connect(self._Hsend)
         layout3.addRow(self.checkbtn1, self.checkbtn2)
         self.btn3 = QPushButton('发送')
         self.btn3.clicked.connect(self._senddata)
@@ -122,26 +122,79 @@ class serialDemo(QWidget):
         layout.addWidget(sj)
         self.setLayout(layout)
 
+    # def initserial(self):
+    ser = serial.Serial()
+        # return
+
     def _checkport(self):
-        pass
+        Com_List = []
+        port_list = list(serial.tools.list_ports.comports())
+        self.comb1.clear()
+        for port in port_list:
+            Com_List.append(port[0])
+            self.comb1.addItem(port[0])
+        if (len(Com_List) == 0):
+            self.label7.setText("没串口")
 
     def _openport(self):
-        pass
+        self.ser.port = self.comb1.currentText()
+        self.ser.baudrate = int(self.comb2.currentText())
+        self.ser.bytesize = int(self.comb3.currentText())
+        self.ser.stopbits = float(self.comb5.currentText())
+        self.ser.parity = self.comb4.currentText()
+        if self.ser.port == '点击选择COM':
+            self.label7.setText('请选择COM口')
+        else:
+            self.ser.open()
+            if (self.ser.isOpen()):
+                self.btn1.setEnabled(False)
+                self.label7.setText(" 打开成功  ")
+                self.t1 = threading.Thread(target=self._receivedata)
+                self.t1.setDaemon(True)
+                self.t1.start()
+            else:
+                self.label7.setText(" 打开失败  ")
 
     def _closeport(self):
-        pass
-
-    def _Hdisplay(self):
-        pass
-
-    def _Hsend(self):
-        pass
+        self.ser.close()
+        if (self.ser.isOpen()):
+            self.label7.setText(" 关闭失败  ")
+        else:
+            self.btn1.setEnabled(True)
+            self.label7.setText(" 关闭成功  ")
 
     def _senddata(self):
-        pass
+        if (self.ser.isOpen()):
+            if (self.checkbtn2.isChecked()):
+                self.ser.write(binascii.a2b_hex(self.text2.toPlainText()))
+            else:
+                self.ser.write(self.text2.toPlainText().encode('utf-8'))
+            self.label7.setText("发送成功")
+            #       self.ser.flushOutput()
+        else:
+            self.label7.setText("发送失败")
 
     def _clearsenddata(self):
-        pass
+        self.text1.setText("")
+        self.label7.setText("接收清空")
+
+    def _receivedata(self):
+        print("The receive_data threading is start")
+        res_data = ''
+        num = 0
+        while (self.ser.isOpen()):
+            size = self.ser.inWaiting()
+            if size:
+                res_data = self.ser.read_all()
+                if (self.checkbtn1.isChecked()):
+                    self.text1.append(binascii.b2a_hex(res_data).decode())
+                else:
+                    self.text1.append(res_data.decode())
+                self.text1.moveCursor(QTextCursor.End)
+                # self.ser.flushInput()
+                num += 1
+                self.label7.setText("接收：" + str(num))
+
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)

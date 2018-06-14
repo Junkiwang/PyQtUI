@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbe69365-3072-4c89-9d2d-633dd63c5b2c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter04/QLabel_shortcut.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter04/QLabel_shortcut.ui" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter04/qt04_lineEdit01.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter04/qt04_lineEdit02.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter04/demo2.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter04/Serial_Demo.py" afterPath="$PROJECT_DIR$/chapter04/Serial_Demo.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter04/serialdemo.py" afterPath="$PROJECT_DIR$/chapter04/serialdemo.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,44 +15,106 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/PyQtUI$qt402_QMainWin.coverage" NAME="qt402_QMainWin Coverage Results" MODIFIED="1528104504518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyQt5/Chapter04" />
     <SUITE FILE_PATH="coverage/PyQtUI$CallMainWin02.coverage" NAME="CallMainWin02 Coverage Results" MODIFIED="1528083893844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PyQtUI$MainWin02.coverage" NAME="MainWin02 Coverage Results" MODIFIED="1528099350984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PyQtUI$layout_demo_LayoutManage_control.coverage" NAME="layout_demo_LayoutManage_control Coverage Results" MODIFIED="1528268130473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter03" />
-    <SUITE FILE_PATH="coverage/PyQtUI$QLabel_shortcut.coverage" NAME="QLabel_shortcut Coverage Results" MODIFIED="1528269327549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
-    <SUITE FILE_PATH="coverage/PyQtUI$qt04_closeMainWin.coverage" NAME="qt04_closeMainWin Coverage Results" MODIFIED="1528180828759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
-    <SUITE FILE_PATH="coverage/PyQtUI$qt404_QToolTip__1_.coverage" NAME="qt404_QToolTip (1) Coverage Results" MODIFIED="1528191550085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyQt5/Chapter04" />
+    <SUITE FILE_PATH="coverage/PyQtUI$qt04_QMessageBox__1_.coverage" NAME="qt04_QMessageBox (1) Coverage Results" MODIFIED="1528515169338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyQt5/Chapter04" />
+    <SUITE FILE_PATH="coverage/PyQtUI$autoUpdate.coverage" NAME="autoUpdate Coverage Results" MODIFIED="1528959198117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/COMTool-master/COMTool" />
     <SUITE FILE_PATH="coverage/PyQtUI$qt402_QMainWin__1_.coverage" NAME="qt402_QMainWin (1) Coverage Results" MODIFIED="1528172258082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
     <SUITE FILE_PATH="coverage/PyQtUI$qt405_center.coverage" NAME="qt405_center Coverage Results" MODIFIED="1528177859120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
-    <SUITE FILE_PATH="coverage/PyQtUI$firstPyQt.coverage" NAME="firstPyQt Coverage Results" MODIFIED="1528188881473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
-    <SUITE FILE_PATH="coverage/PyQtUI$MainWinSignalSlog01.coverage" NAME="MainWinSignalSlog01 Coverage Results" MODIFIED="1527749901055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PyQtUI$qt404_QToolTip.coverage" NAME="qt404_QToolTip Coverage Results" MODIFIED="1528192261789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
-    <SUITE FILE_PATH="coverage/PyQtUI$qt401_widgetGeometry.coverage" NAME="qt401_widgetGeometry Coverage Results" MODIFIED="1528185190798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
+    <SUITE FILE_PATH="coverage/PyQtUI$demo.coverage" NAME="demo Coverage Results" MODIFIED="1528339687672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
+    <SUITE FILE_PATH="coverage/PyQtUI$qt04_drag.coverage" NAME="qt04_drag Coverage Results" MODIFIED="1528778491895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
+    <SUITE FILE_PATH="coverage/PyQtUI$Ui_my_back_test_show.coverage" NAME="Ui_my_back_test_show Coverage Results" MODIFIED="1528865060643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyQt5/Chapter11/zwquant_pyqt" />
+    <SUITE FILE_PATH="coverage/PyQtUI$qt0416_Dialog.coverage" NAME="qt0416_Dialog Coverage Results" MODIFIED="1528512328341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
     <SUITE FILE_PATH="coverage/PyQtUI$current_share.coverage" NAME="current_share Coverage Results" MODIFIED="1527759520892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Study/Studypractice" />
+    <SUITE FILE_PATH="coverage/PyQtUI$qt04_lineEdit03.coverage" NAME="qt04_lineEdit03 Coverage Results" MODIFIED="1528338793205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
+    <SUITE FILE_PATH="coverage/PyQtUI$qt04_QInputDialog__1_.coverage" NAME="qt04_QInputDialog (1) Coverage Results" MODIFIED="1528524904561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyQt5/Chapter04" />
+    <SUITE FILE_PATH="coverage/PyQtUI$run.coverage" NAME="run Coverage Results" MODIFIED="1528863598226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyQt5/Chapter11/juchao" />
+    <SUITE FILE_PATH="coverage/PyQtUI$qt04_QClipboard.coverage" NAME="qt04_QClipboard Coverage Results" MODIFIED="1528789053949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
+    <SUITE FILE_PATH="coverage/PyQtUI$qt0408_QButton.coverage" NAME="qt0408_QButton Coverage Results" MODIFIED="1528364796007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
+    <SUITE FILE_PATH="coverage/PyQtUI$QLabel_shortcut.coverage" NAME="QLabel_shortcut Coverage Results" MODIFIED="1528680339190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
+    <SUITE FILE_PATH="coverage/PyQtUI$qt04_closeMainWin.coverage" NAME="qt04_closeMainWin Coverage Results" MODIFIED="1528180828759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
+    <SUITE FILE_PATH="coverage/PyQtUI$qt04_QFileDialog.coverage" NAME="qt04_QFileDialog Coverage Results" MODIFIED="1528531159526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
+    <SUITE FILE_PATH="coverage/PyQtUI$qt0413_QSlider.coverage" NAME="qt0413_QSlider Coverage Results" MODIFIED="1528509601588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
+    <SUITE FILE_PATH="coverage/PyQtUI$qt04_lineEdit.coverage" NAME="qt04_lineEdit Coverage Results" MODIFIED="1528342527941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
+    <SUITE FILE_PATH="coverage/PyQtUI$qt04_QFontDialog.coverage" NAME="qt04_QFontDialog Coverage Results" MODIFIED="1528526480327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
+    <SUITE FILE_PATH="coverage/PyQtUI$qt401_widgetGeometry.coverage" NAME="qt401_widgetGeometry Coverage Results" MODIFIED="1528185190798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
     <SUITE FILE_PATH="coverage/PyQtUI$MainWinSignalSlog03.coverage" NAME="MainWinSignalSlog03 Coverage Results" MODIFIED="1528092561377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyQtUI$qt04_drawText.coverage" NAME="qt04_drawText Coverage Results" MODIFIED="1528696696187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
     <SUITE FILE_PATH="coverage/PyQtUI$qt403_QIcon.coverage" NAME="qt403_QIcon Coverage Results" MODIFIED="1528190929324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
-    <SUITE FILE_PATH="coverage/PyQtUI$MainForm.coverage" NAME="MainForm Coverage Results" MODIFIED="1527761387798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PyQtUI$qt406_QLabel.coverage" NAME="qt406_QLabel Coverage Results" MODIFIED="1528258407759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
-    <SUITE FILE_PATH="coverage/PyQtUI$qt04_lineEdit02.coverage" NAME="qt04_lineEdit02 Coverage Results" MODIFIED="1528274401543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyQt5/Chapter04" />
+    <SUITE FILE_PATH="coverage/PyQtUI$qt0412_QSpinBox__1_.coverage" NAME="qt0412_QSpinBox (1) Coverage Results" MODIFIED="1528447360122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyQt5/Chapter04" />
+    <SUITE FILE_PATH="coverage/PyQtUI$qt406_QLabel.coverage" NAME="qt406_QLabel Coverage Results" MODIFIED="1528365483014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
+    <SUITE FILE_PATH="coverage/PyQtUI$qt04_drag__1_.coverage" NAME="qt04_drag (1) Coverage Results" MODIFIED="1528776743034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyQt5/Chapter04" />
+    <SUITE FILE_PATH="coverage/PyQtUI$qt04_QMessageBox.coverage" NAME="qt04_QMessageBox Coverage Results" MODIFIED="1528515293026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
+    <SUITE FILE_PATH="coverage/PyQtUI$qt402_QMainWin.coverage" NAME="qt402_QMainWin Coverage Results" MODIFIED="1528104504518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyQt5/Chapter04" />
+    <SUITE FILE_PATH="coverage/PyQtUI$MainWin02.coverage" NAME="MainWin02 Coverage Results" MODIFIED="1528099350984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyQtUI$layout_demo_LayoutManage_control.coverage" NAME="layout_demo_LayoutManage_control Coverage Results" MODIFIED="1528268130473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter03" />
+    <SUITE FILE_PATH="coverage/PyQtUI$qt0412_QSpinBox.coverage" NAME="qt0412_QSpinBox Coverage Results" MODIFIED="1528447432691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
+    <SUITE FILE_PATH="coverage/PyQtUI$qt404_QToolTip__1_.coverage" NAME="qt404_QToolTip (1) Coverage Results" MODIFIED="1528191550085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyQt5/Chapter04" />
+    <SUITE FILE_PATH="coverage/PyQtUI$qt04_drawPen.coverage" NAME="qt04_drawPen Coverage Results" MODIFIED="1528701952578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
+    <SUITE FILE_PATH="coverage/PyQtUI$qt04__QCalendar.coverage" NAME="qt04_ QCalendar Coverage Results" MODIFIED="1528797913093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
+    <SUITE FILE_PATH="coverage/PyQtUI$qt404_QToolTip.coverage" NAME="qt404_QToolTip Coverage Results" MODIFIED="1528192261789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
+    <SUITE FILE_PATH="coverage/PyQtUI$qt0409_QRadio.coverage" NAME="qt0409_QRadio Coverage Results" MODIFIED="1528425266771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
+    <SUITE FILE_PATH="coverage/PyQtUI$qt04_QInputDialog.coverage" NAME="qt04_QInputDialog Coverage Results" MODIFIED="1528525752755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
+    <SUITE FILE_PATH="coverage/PyQtUI$qt04_QFileDialog__1_.coverage" NAME="qt04_QFileDialog (1) Coverage Results" MODIFIED="1528531095557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyQt5/Chapter04" />
+    <SUITE FILE_PATH="coverage/PyQtUI$qt04_drawBrush.coverage" NAME="qt04_drawBrush Coverage Results" MODIFIED="1528709716516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
+    <SUITE FILE_PATH="coverage/PyQtUI$fundFOF.coverage" NAME="fundFOF Coverage Results" MODIFIED="1528864213725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyQt5/Chapter11" />
+    <SUITE FILE_PATH="coverage/PyQtUI$Main.coverage" NAME="Main Coverage Results" MODIFIED="1528960804652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/COMTool-master/COMTool" />
+    <SUITE FILE_PATH="coverage/PyQtUI$Plotly_PyQt5.coverage" NAME="Plotly_PyQt5 Coverage Results" MODIFIED="1528865042120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyQt5/Chapter11" />
+    <SUITE FILE_PATH="coverage/PyQtUI$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1528944480147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
+    <SUITE FILE_PATH="coverage/PyQtUI$qt04_QClipboard__1_.coverage" NAME="qt04_QClipboard (1) Coverage Results" MODIFIED="1528788263853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyQt5/Chapter04" />
     <SUITE FILE_PATH="coverage/PyQtUI$CallMainWin01.coverage" NAME="CallMainWin01 Coverage Results" MODIFIED="1527816853082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PyQtUI$qt0407_QLabel.coverage" NAME="qt0407_QLabel Coverage Results" MODIFIED="1528268724348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyQt5/Chapter04" />
     <SUITE FILE_PATH="coverage/PyQtUI$qt04_lineEdit01.coverage" NAME="qt04_lineEdit01 Coverage Results" MODIFIED="1528273415079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
+    <SUITE FILE_PATH="coverage/PyQtUI$craw.coverage" NAME="craw Coverage Results" MODIFIED="1528865101776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyQt5/Chapter11/juchao" />
+    <SUITE FILE_PATH="coverage/PyQtUI$qt04_lineEdit02__1_.coverage" NAME="qt04_lineEdit02 (1) Coverage Results" MODIFIED="1528338046784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
+    <SUITE FILE_PATH="coverage/PyQtUI$qt0411_QComboBox.coverage" NAME="qt0411_QComboBox Coverage Results" MODIFIED="1528948891329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
+    <SUITE FILE_PATH="coverage/PyQtUI$firstPyQt.coverage" NAME="firstPyQt Coverage Results" MODIFIED="1528188881473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
+    <SUITE FILE_PATH="coverage/PyQtUI$practice.coverage" NAME="practice Coverage Results" MODIFIED="1528358066067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Study/Studypractice" />
+    <SUITE FILE_PATH="coverage/PyQtUI$MainWinSignalSlog01.coverage" NAME="MainWinSignalSlog01 Coverage Results" MODIFIED="1527749901055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyQtUI$zwStrategy.coverage" NAME="zwStrategy Coverage Results" MODIFIED="1528865083806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyQt5/Chapter11/zwquant_pyqt" />
+    <SUITE FILE_PATH="coverage/PyQtUI$serialdemo.coverage" NAME="serialdemo Coverage Results" MODIFIED="1528970549740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
+    <SUITE FILE_PATH="coverage/PyQtUI$qt04_drawPoint__1_.coverage" NAME="qt04_drawPoint (1) Coverage Results" MODIFIED="1528698346557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyQt5/Chapter04" />
+    <SUITE FILE_PATH="coverage/PyQtUI$qt04_drawPoint.coverage" NAME="qt04_drawPoint Coverage Results" MODIFIED="1528699310105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
+    <SUITE FILE_PATH="coverage/PyQtUI$qt0410_QCheckbox.coverage" NAME="qt0410_QCheckbox Coverage Results" MODIFIED="1528429448288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
+    <SUITE FILE_PATH="coverage/PyQtUI$Serial_Demo.coverage" NAME="Serial_Demo Coverage Results" MODIFIED="1528970474243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
+    <SUITE FILE_PATH="coverage/PyQtUI$MainForm.coverage" NAME="MainForm Coverage Results" MODIFIED="1527761387798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyQtUI$qt04_lineEdit02.coverage" NAME="qt04_lineEdit02 Coverage Results" MODIFIED="1528274401543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyQt5/Chapter04" />
+    <SUITE FILE_PATH="coverage/PyQtUI$qt04_QTextEdit.coverage" NAME="qt04_QTextEdit Coverage Results" MODIFIED="1528353669535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
     <SUITE FILE_PATH="coverage/PyQtUI$layout_demo_LayoutManage.coverage" NAME="layout_demo_LayoutManage Coverage Results" MODIFIED="1527739955189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PyQtUI$qt04_lineEdit02__1_.coverage" NAME="qt04_lineEdit02 (1) Coverage Results" MODIFIED="1528278467273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="PyQtUI" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="qt04_lineEdit02.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter04/qt04_lineEdit02.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="serialdemo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter04/serialdemo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="48" column="24" lean-forward="true" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+            <state relative-caret-position="438">
+              <caret line="229" column="44" lean-forward="true" selection-start-line="229" selection-start-column="44" selection-end-line="229" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Serial_Demo.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter04/Serial_Demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="737">
+              <caret line="195" column="45" lean-forward="false" selection-start-line="195" selection-start-column="45" selection-end-line="195" selection-end-column="45" />
               <folding>
-                <element signature="e#62#135#0" expanded="true" />
+                <element signature="e#63#73#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,7 +132,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Buddy</find>
+      <find>ser</find>
     </findStrings>
+    <replaceStrings>
+      <replace>serial.Serial()</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -79,9 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/layout_demo_LayoutManage.py" />
-        <option value="$PROJECT_DIR$/layout_demo_LayoutManage_control.py" />
         <option value="$PROJECT_DIR$/MainWinSignalSlog01.py" />
         <option value="$PROJECT_DIR$/MainWinSignalSlog03.py" />
         <option value="$PROJECT_DIR$/../Study/Studypractice/current_share.py" />
@@ -99,9 +161,40 @@
         <option value="$PROJECT_DIR$/chapter04/qt406_QLabel.py" />
         <option value="$PROJECT_DIR$/../PyQt5/Chapter04/qt0407_QLabel.py" />
         <option value="$PROJECT_DIR$/chapter03/layout_demo_LayoutManage.py" />
-        <option value="$PROJECT_DIR$/chapter04/QLabel_shortcut.py" />
         <option value="$PROJECT_DIR$/chapter04/qt04_lineEdit01.py" />
         <option value="$PROJECT_DIR$/chapter04/qt04_lineEdit02.py" />
+        <option value="$PROJECT_DIR$/chapter04/qt04_lineEdit03.py" />
+        <option value="$PROJECT_DIR$/chapter04/demo.py" />
+        <option value="$PROJECT_DIR$/chapter04/qt04_lineEdit.py" />
+        <option value="$PROJECT_DIR$/chapter04/qt04_QTextEdit.py" />
+        <option value="$PROJECT_DIR$/../Study/Studypractice/practice.py" />
+        <option value="$PROJECT_DIR$/chapter04/qt0408_QButton.py" />
+        <option value="$PROJECT_DIR$/chapter04/qt0409_QRadio.py" />
+        <option value="$PROJECT_DIR$/chapter04/qt0410_QCheckbox.py" />
+        <option value="$PROJECT_DIR$/chapter04/qt0412_QSpinBox.py" />
+        <option value="$PROJECT_DIR$/chapter04/qt0413_QSlider.py" />
+        <option value="$PROJECT_DIR$/chapter04/qt0416_Dialog.py" />
+        <option value="$PROJECT_DIR$/../PyQt5/Chapter04/qt04_QMessageBox.py" />
+        <option value="$PROJECT_DIR$/chapter04/qt04_QMessageBox.py" />
+        <option value="$PROJECT_DIR$/chapter04/qt04_QInputDialog.py" />
+        <option value="$PROJECT_DIR$/chapter04/qt04_QFontDialog.py" />
+        <option value="$PROJECT_DIR$/../PyQt5/Chapter04/qt04_QFileDialog.py" />
+        <option value="$PROJECT_DIR$/chapter04/qt04_QFileDialog.py" />
+        <option value="$PROJECT_DIR$/chapter04/QLabel_shortcut.py" />
+        <option value="$PROJECT_DIR$/chapter04/qt04_drawText.py" />
+        <option value="$PROJECT_DIR$/../PyQt5/Chapter04/qt04_drawPoint.py" />
+        <option value="$PROJECT_DIR$/chapter04/qt04_drawPoint.py" />
+        <option value="$PROJECT_DIR$/chapter04/qt04_drawPen.py" />
+        <option value="$PROJECT_DIR$/chapter04/qt04_drawBrush.py" />
+        <option value="$PROJECT_DIR$/chapter04/qt04_drag.py" />
+        <option value="$PROJECT_DIR$/../PyQt5/Chapter04/qt04_QClipboard.py" />
+        <option value="$PROJECT_DIR$/chapter04/qt04_QClipboard.py" />
+        <option value="$USER_HOME$/Desktop/espush-helper-master/espush-helper-master/helper.py" />
+        <option value="$PROJECT_DIR$/chapter04/qt04_ QCalendar.py" />
+        <option value="$PROJECT_DIR$/chapter04/demo2.py" />
+        <option value="$PROJECT_DIR$/chapter04/qt0411_QComboBox.py" />
+        <option value="$PROJECT_DIR$/chapter04/serialdemo.py" />
+        <option value="$PROJECT_DIR$/chapter04/Serial_Demo.py" />
       </list>
     </option>
   </component>
@@ -135,6 +228,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -182,36 +276,17 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="C:/Python/Python35-32/Scripts/pyrcc5.exe" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/Python_project/PyQtUI/chapter04/qt402_QMainWin.py" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/COMTool-master" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/Python_project/PyQtUI/chapter04/qt04_QFontDialog.py" />
   </component>
-  <component name="RunManager" selected="Python.qt04_lineEdit02 (1)">
-    <configuration default="false" name="qt0407_QLabel" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PyQt5/Chapter04" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python_project" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PyQt5/Chapter04/qt0407_QLabel.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="QLabel_shortcut" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.serialdemo">
+    <configuration default="false" name="serialdemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -224,12 +299,12 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python_project" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter04/QLabel_shortcut.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter04/serialdemo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="qt04_lineEdit01" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Serial_Demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -242,30 +317,12 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python_project" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter04/qt04_lineEdit01.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter04/Serial_Demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="qt04_lineEdit02" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PyQt5/Chapter04" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python_project" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PyQt5/Chapter04/qt04_lineEdit02.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="qt04_lineEdit02 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="qt0411_QComboBox" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -278,7 +335,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python_project" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter04/qt04_lineEdit02.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter04/qt0411_QComboBox.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -497,20 +554,16 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.qt0407_QLabel" />
-      <item index="1" class="java.lang.String" itemvalue="Python.QLabel_shortcut" />
-      <item index="2" class="java.lang.String" itemvalue="Python.qt04_lineEdit01" />
-      <item index="3" class="java.lang.String" itemvalue="Python.qt04_lineEdit02" />
-      <item index="4" class="java.lang.String" itemvalue="Python.qt04_lineEdit02 (1)" />
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Python.serialdemo" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Serial_Demo" />
+      <item index="2" class="java.lang.String" itemvalue="Python.qt0411_QComboBox" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.qt04_lineEdit02 (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.qt04_lineEdit02" />
-        <item index="2" class="java.lang.String" itemvalue="Python.qt04_lineEdit01" />
-        <item index="3" class="java.lang.String" itemvalue="Python.QLabel_shortcut" />
-        <item index="4" class="java.lang.String" itemvalue="Python.qt0407_QLabel" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.serialdemo" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Serial_Demo" />
+        <item index="2" class="java.lang.String" itemvalue="Python.qt0411_QComboBox" />
       </list>
     </recent_temporary>
   </component>
@@ -591,7 +644,63 @@
       <option name="project" value="LOCAL" />
       <updated>1528193906149</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add">
+      <created>1528278499646</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1528278499646</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add">
+      <created>1528365774224</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1528365774224</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add">
+      <created>1528453317113</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1528453317113</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add">
+      <created>1528531184292</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1528531184292</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add">
+      <created>1528709734045</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1528709734045</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add">
+      <created>1528797969529</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1528797969529</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add">
+      <created>1528884778411</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1528884778411</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add">
+      <created>1528884890184</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1528884890184</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView">
@@ -604,20 +713,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16977078" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19770774" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39973083" sideWeight="0.5028653" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22072679" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39165545" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39973083" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2139973" sideWeight="0.49713466" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -639,299 +748,375 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chapter04/Serial_Demo.py</url>
+          <line>166</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chapter04/Serial_Demo.py</url>
+          <line>129</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="37" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="self.com.baudrate" language="Python" />
+        <watch expression="self.com.port" language="Python" />
+        <watch expression="self.com.bytesize" language="Python" />
+        <watch expression="self.com.parity" language="Python" />
+        <watch expression="self.com.stopbits" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/layout_demo_LayoutManage_control.py" />
-    <entry file="file://$PROJECT_DIR$/../PyQt5/Chapter03/MainWinSignalSlog04.py">
+    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/1951353660/PyQt5/QtWidgets/QDialog.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-43">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="583">
+          <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MainWinSignalSlog01.py" />
-    <entry file="file://$PROJECT_DIR$/../Study/Studypractice/current_share.py">
+    <entry file="file://$PROJECT_DIR$/../PyQt5/Chapter04/qt04_QFileDialog.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CallMainWin01.py" />
-    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/1951353660/PyQt5/QtWidgets/QWidget.py">
+    <entry file="file://$PROJECT_DIR$/chapter04/qt04_QFileDialog.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="929" column="8" lean-forward="false" selection-start-line="929" selection-start-column="8" selection-end-line="929" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="300">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ChildrenForm2.py" />
-    <entry file="file://$PROJECT_DIR$/MainForm2.py" />
-    <entry file="file://$PROJECT_DIR$/../PyQt5/Chapter03/apprcc.qrc">
+    <entry file="file://$PROJECT_DIR$/chapter03/ContainersWin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="168">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="58" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CallMainWin02.py" />
-    <entry file="file://$PROJECT_DIR$/firstMainWin.py" />
-    <entry file="file://$PROJECT_DIR$/helloworld.py" />
-    <entry file="file://$PROJECT_DIR$/MainForm.py" />
-    <entry file="file://$PROJECT_DIR$/MainWinSignalSlog03.py" />
-    <entry file="file://$PROJECT_DIR$/apprcc.py" />
-    <entry file="file://$PROJECT_DIR$/ContainersWin.py" />
-    <entry file="file://$PROJECT_DIR$/main.py" />
-    <entry file="file://$PROJECT_DIR$/apprcc.qrc" />
-    <entry file="file://$PROJECT_DIR$/MainWin02.py" />
-    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/1951353660/PyQt5/QtGui/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/1951353660/PyQt5/QtGui/QIcon.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1135">
-          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../PyQt5/Chapter04/qt402_QMainWin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter04/qt402_QMainWin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter04/qt405_center.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/1951353660/PyQt5/QtWidgets/QMainWindow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="243" column="0" lean-forward="true" selection-start-line="243" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/1951353660/PyQt5/QtCore/QCoreApplication.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="93" column="20" lean-forward="true" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="1601" column="0" lean-forward="true" selection-start-line="1601" selection-start-column="0" selection-end-line="1601" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter04/qt04_closeMainWin.py">
+    <entry file="file://$PROJECT_DIR$/chapter04/QLabel_shortcut.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
-          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <caret line="49" column="60" lean-forward="true" selection-start-line="49" selection-start-column="60" selection-end-line="49" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter04/qt401_widgetGeometry.py">
+    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/1951353660/PyQt5/QtGui/QPainter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        <state relative-caret-position="155">
+          <caret line="192" column="8" lean-forward="false" selection-start-line="192" selection-start-column="8" selection-end-line="192" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter04/firstPyQt.py">
+    <entry file="file://$PROJECT_DIR$/../PyQt5/Chapter04/qt04_drawPen.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="-299">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter04/qt403_QIcon.py">
+    <entry file="file://$PROJECT_DIR$/../PyQt5/Chapter04/qt04_drawPoint.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        <state relative-caret-position="299">
+          <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../PyQt5/Chapter04/qt404_QToolTip.py">
+    <entry file="file://$PROJECT_DIR$/../PyQt5/Chapter04/qt04_drawText.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="362">
+          <caret line="28" column="8" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter03/CallMainWin01.py">
+    <entry file="file://$PROJECT_DIR$/chapter04/qt04_drawText.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter04/qt04_drawPoint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter04/qt04_drawPen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter04/qt04_drawBrush.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PyQt5/Chapter04/qt04_drag.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/1951353660/PyQt5/QtWidgets/QWidget.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14789">
+          <caret line="644" column="8" lean-forward="false" selection-start-line="644" selection-start-column="8" selection-end-line="644" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/1951353660/PyQt5/QtCore/QMimeData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1265">
+          <caret line="55" column="8" lean-forward="false" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter04/qt04_drag.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PyQt5/Chapter04/qt04_drawBrush.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-690">
+          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter04/qt04_QClipboard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="15" column="52" lean-forward="true" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PyQt5/Chapter04/qt04_QClipboard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="57" column="24" lean-forward="false" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/espush-helper-master/espush-helper-master/flash_context.py" />
+    <entry file="file://$USER_HOME$/Desktop/espush-helper-master/espush-helper-master/helper.py" />
+    <entry file="file://$USER_HOME$/Desktop/espush-helper-master/espush-helper-master/etool.py" />
+    <entry file="file://$USER_HOME$/Desktop/espush-helper-master/espush-helper-master/serial_context.py" />
+    <entry file="file://$USER_HOME$/Desktop/espush-helper-master/espush-helper-master/serial_cmd.py" />
+    <entry file="file://$PROJECT_DIR$/chapter04/qt04_ QCalendar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="27" column="38" lean-forward="true" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/1951353660/binascii.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter03/MainWinSignalSlog03.py">
+    <entry file="file://$PROJECT_DIR$/../PyQt5/Chapter11/juchao/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        <state relative-caret-position="212">
+          <caret line="245" column="63" lean-forward="true" selection-start-line="245" selection-start-column="63" selection-end-line="245" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter03/MainForm2.py">
+    <entry file="file://$PROJECT_DIR$/../PyQt5/Chapter11/juchao/Ui_run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-467">
-          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        <state relative-caret-position="-6624">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter03/MainWin02.py">
+    <entry file="file://$PROJECT_DIR$/../PyQt5/Chapter11/fundFOF.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="269">
+          <caret line="67" column="14" lean-forward="true" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter03/MainWinSignalSlog01.py">
+    <entry file="file://$PROJECT_DIR$/../PyQt5/Chapter11/Plotly_PyQt5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-99">
-          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        <state relative-caret-position="184">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter03/CallMainWin02.py">
+    <entry file="file://$PROJECT_DIR$/../PyQt5/Chapter11/zwquant_pyqt/zwStrategy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-          <folding />
+        <state relative-caret-position="184">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter04/qt404_QToolTip.py">
+    <entry file="file://$PROJECT_DIR$/../PyQt5/Chapter11/zwquant_pyqt/Ui_my_back_test_show.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PyQt5/Chapter11/juchao/craw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="29" column="67" lean-forward="true" selection-start-line="29" selection-start-column="67" selection-end-line="29" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter03/layout_demo_LayoutManage_control.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="11" column="54" lean-forward="true" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+        <state relative-caret-position="424">
+          <caret line="1595" column="0" lean-forward="false" selection-start-line="1595" selection-start-column="0" selection-end-line="1595" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter03/layout_demo_LayoutManage.py">
+    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/1951353660/PyQt5/QtWidgets/QLayout.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="107" column="58" lean-forward="true" selection-start-line="107" selection-start-column="58" selection-end-line="107" selection-end-column="58" />
+        <state relative-caret-position="192">
+          <caret line="182" column="8" lean-forward="false" selection-start-line="182" selection-start-column="8" selection-end-line="182" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter03/main.py">
+    <entry file="file://$PROJECT_DIR$/chapter04/demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="46">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter03/MainForm.py">
+    <entry file="file://C:/Python/Python35-32/Lib/site-packages/serial/serialutil.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-347">
-          <caret line="36" column="60" lean-forward="true" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
+        <state relative-caret-position="353">
+          <caret line="82" column="24" lean-forward="true" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter03/layoutWin.py">
+    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/1951353660/PyQt5/QtWidgets/QComboBox.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="156" column="0" lean-forward="false" selection-start-line="156" selection-start-column="0" selection-end-line="163" selection-end-column="25" />
+        <state relative-caret-position="238">
+          <caret line="374" column="8" lean-forward="false" selection-start-line="374" selection-start-column="8" selection-end-line="374" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../PyQt5/Chapter04/qt0407_QLabel.py">
+    <entry file="file://$PROJECT_DIR$/chapter04/qt0411_QComboBox.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2">
-          <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        <state relative-caret-position="276">
+          <caret line="21" column="65" lean-forward="true" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/Python35-32/Lib/site-packages/serial/serialwin32.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="221" column="0" lean-forward="false" selection-start-line="221" selection-start-column="0" selection-end-line="221" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter04/demo2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="32" column="40" lean-forward="true" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
           <folding>
-            <element signature="e#113#142#0" expanded="true" />
+            <element signature="e#62#72#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter04/qt406_QLabel.py">
+    <entry file="file://C:/Python/Python35-32/Lib/threading.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding>
-            <element signature="e#62#132#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter04/qt04_lineEdit01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="26" column="53" lean-forward="true" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
-          <folding>
-            <element signature="e#62#135#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter04/QLabel_shortcut.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="895">
-          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        <state relative-caret-position="415">
+          <caret line="870" column="0" lean-forward="false" selection-start-line="870" selection-start-column="0" selection-end-line="870" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../PyQt5/Chapter04/qt04_lineEdit02.py">
+    <entry file="file://$USER_HOME$/Desktop/COMTool-master/COMTool/Combobox.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="46" column="15" lean-forward="true" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/1951353660/PyQt5/QtGui/QDoubleValidator.py">
+    <entry file="file://$USER_HOME$/Desktop/COMTool-master/COMTool/autoUpdate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1932">
-          <caret line="87" column="19" lean-forward="false" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
+        <state relative-caret-position="92">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter04/qt04_lineEdit02.py">
+    <entry file="file://$USER_HOME$/Desktop/COMTool-master/COMTool/wave.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="48" column="24" lean-forward="true" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+        <state relative-caret-position="-184">
+          <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/COMTool-master/COMTool/helpAbout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/COMTool-master/COMTool/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="636">
+          <caret line="306" column="87" lean-forward="true" selection-start-line="306" selection-start-column="87" selection-end-line="306" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter04/serialdemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="229" column="44" lean-forward="true" selection-start-line="229" selection-start-column="44" selection-end-line="229" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter04/Serial_Demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="737">
+          <caret line="195" column="45" lean-forward="false" selection-start-line="195" selection-start-column="45" selection-end-line="195" selection-end-column="45" />
           <folding>
-            <element signature="e#62#135#0" expanded="true" />
+            <element signature="e#63#73#0" expanded="true" />
           </folding>
         </state>
       </provider>
