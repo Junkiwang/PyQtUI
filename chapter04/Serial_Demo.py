@@ -13,6 +13,7 @@ from PyQt5.QtGui import *
 
 
 class serialDemo(QWidget):
+    ser = serial.Serial()
 
     def __init__(self, parent=None):
         super(serialDemo, self).__init__(parent)
@@ -26,8 +27,8 @@ class serialDemo(QWidget):
         layout_sz = QGridLayout()
         self.label1 = QLabel('COM口')
         self.comb1 = QComboBox()
-        self.comb1.addItem('点击选择COM')
-        self.comb1.activated.connect(self._checkport)
+        # self.comb1.addItem('点击选择COM')
+        self.comb1.addItems(self._portlist())
         layout_sz.addWidget(self.label1, 0, 0)
         layout_sz.addWidget(self.comb1, 0, 1)
 
@@ -64,6 +65,7 @@ class serialDemo(QWidget):
         layout_dk.addWidget(self.btn1, 0, 0)
 
         self.btn2 = QPushButton('关闭')
+        self.btn2.setDisabled(True)
         self.btn2.clicked.connect(self._closeport)
         layout_dk.addWidget(self.btn2, 0, 1)
         groupbox_dk.setLayout(layout_dk)
@@ -122,38 +124,44 @@ class serialDemo(QWidget):
         layout.addWidget(sj)
         self.setLayout(layout)
 
-    # def initserial(self):
-    ser = serial.Serial()
-        # return
-
-    def _checkport(self):
-        Com_List = []
-        port_list = list(serial.tools.list_ports.comports())
+    def _portlist(self):
+        port_list = []
+        ports = list(serial.tools.list_ports.comports())
         self.comb1.clear()
-        for port in port_list:
-            Com_List.append(port[0])
-            self.comb1.addItem(port[0])
-        if (len(Com_List) == 0):
-            self.label7.setText("没串口")
+        for port in ports:
+            port_list.append(port[0])
+        if len(port_list) == 0:
+            self.label7.setText("没发现串口")
+        return port_list
 
     def _openport(self):
-        self.ser.port = self.comb1.currentText()
-        self.ser.baudrate = int(self.comb2.currentText())
-        self.ser.bytesize = int(self.comb3.currentText())
-        self.ser.stopbits = float(self.comb5.currentText())
-        self.ser.parity = self.comb4.currentText()
-        if self.ser.port == '点击选择COM':
-            self.label7.setText('请选择COM口')
-        else:
-            self.ser.open()
-            if (self.ser.isOpen()):
-                self.btn1.setEnabled(False)
-                self.label7.setText(" 打开成功  ")
-                self.t1 = threading.Thread(target=self._receivedata)
-                self.t1.setDaemon(True)
-                self.t1.start()
+        try:
+            self.ser.port = self.comb1.currentText()
+            self.ser.baudrate = int(self.comb2.currentText())
+            self.ser.bytesize = int(self.comb3.currentText())
+            self.ser.stopbits = float(self.comb5.currentText())
+            self.ser.parity = self.comb4.currentText()
+            if self.ser.port == '':
+                self.label7.setText('请选择COM口')
             else:
-                self.label7.setText(" 打开失败  ")
+                self.ser.open()
+                if (self.ser.isOpen()):
+                    self.btn1.setEnabled(False)
+                    self.btn2.setEnabled(True)
+                    self.comb1.setDisabled(True)
+                    self.comb2.setDisabled(True)
+                    self.comb3.setDisabled(True)
+                    self.comb4.setDisabled(True)
+                    self.comb5.setDisabled(True)
+                    self.label7.setText(" 打开成功  ")
+                    self.t1 = threading.Thread(target=self._receivedata)
+                    self.t1.setDaemon(True)
+                    self.t1.start()
+                else:
+                    self.label7.setText(" 打开失败  ")
+        except Exception as msg:
+            print('%s' % msg)
+
 
     def _closeport(self):
         self.ser.close()
@@ -161,6 +169,12 @@ class serialDemo(QWidget):
             self.label7.setText(" 关闭失败  ")
         else:
             self.btn1.setEnabled(True)
+            self.btn2.setEnabled(False)
+            self.comb1.setDisabled(False)
+            self.comb2.setDisabled(False)
+            self.comb3.setDisabled(False)
+            self.comb4.setDisabled(False)
+            self.comb5.setDisabled(False)
             self.label7.setText(" 关闭成功  ")
 
     def _senddata(self):
@@ -169,14 +183,14 @@ class serialDemo(QWidget):
                 self.ser.write(binascii.a2b_hex(self.text2.toPlainText()))
             else:
                 self.ser.write(self.text2.toPlainText().encode('utf-8'))
-            self.label7.setText("发送成功")
-            #       self.ser.flushOutput()
+            self.label7.setText(" 发送成功  ")
+            # self.ser.flushOutput()
         else:
-            self.label7.setText("发送失败")
+            self.label7.setText(" 发送失败  ")
 
     def _clearsenddata(self):
         self.text1.setText("")
-        self.label7.setText("接收清空")
+        self.label7.setText(" 接收清空  ")
 
     def _receivedata(self):
         print("The receive_data threading is start")
