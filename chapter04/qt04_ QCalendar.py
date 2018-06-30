@@ -22,7 +22,6 @@ class CalendarDemo(QWidget):
         self.cal.setGridVisible(True)
         self.cal.move(20, 20)
         self.cal.clicked[QtCore.QDate].connect(self.showDate)
-
         self.lb = QLabel('                 ', self)    # 默认显示长度
         self.lb.move(20, 300)
         date = self.cal.selectedDate()
