@@ -179,10 +179,12 @@ class serialDemo(QWidget):
 
     def _senddata(self):
         if (self.ser.isOpen()):
+            datalist = (self.text2.toPlainText()).split(' ')
+            data = ('').join(datalist)
             if (self.checkbtn2.isChecked()):
-                self.ser.write(binascii.a2b_hex(self.text2.toPlainText()))
+                self.ser.write(binascii.a2b_hex(data))
             else:
-                self.ser.write(self.text2.toPlainText().encode('utf-8'))
+                self.ser.write(data.encode('utf-8'))
             self.label7.setText(" 发送成功  ")
             # self.ser.flushOutput()
         else:
